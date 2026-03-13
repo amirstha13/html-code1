@@ -1,0 +1,262 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#e9f9ff;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background-image:url("OIP-477981593.jpg");
+background-size:cover;
+background-position:center;
+}
+
+.header-left{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+.logo{
+height:60px;
+}
+
+.header-right .ad{
+height:70px;
+}
+
+.subheader{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#fffdfd;
+padding:15px 20px;
+}
+
+.navlist{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.navlist li a{
+text-decoration:none;
+font-weight:bold;
+color:black;
+}
+
+.navlist li a:hover{
+color:rgb(245, 108, 108);
+}
+
+.rightbutton{
+display:flex;
+gap:10px;
+}
+
+button{
+background:rgb(255, 0, 0);
+color:rgb(255, 255, 255);
+padding:10px 16px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-weight:bold;
+}
+
+button:hover{
+background:#32ff00;
+color:white;
+}
+
+.results{
+width: 43%;
+display:flex;
+gap:20px;
+margin-left: 0%;
+}
+
+.sidebar {
+    margin-left: 70%;
+    margin-top: -17%;
+}
+table{
+border-collapse:collapse;
+width:70%;
+background:white;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:12px;
+}
+
+th{
+background:#f2f2f2;
+}
+
+.bar{
+height:15px;
+background:#ddd;
+border-radius:4px;
+}
+.rsp{
+    
+background:#3ec1d3;
+height:15px;
+width:80%;
+border-radius:4px;
+}
+
+.congress{
+background:#4CAF50;
+height:15px;
+width:30%;
+border-radius:4px;
+}
+
+.uml{
+background:#ff4d4d;
+height:15px;
+width:20%;
+border-radius:4px;
+}
+
+.other {
+background:#ff9900;
+height:15px;
+width:10%;
+border-radius:4px;
+}
+ 
+.vacant {
+background:#999999;
+height:15px;
+width:45%;
+border-radius:4px;
+}
+
+.sidebar{
+width:30%;
+background:white;
+padding:40px;
+border-radius:5px;
+}
+
+.seat{
+margin:10px 0;
+padding:10px;
+color:white;
+border-radius:4px;
+}
+
+.rsp-seat{background:#3ec1d3;}
+.congress-seat{background:#4CAF50;}
+.uml-seat{background:#ff4d4d;}
+.other-seat{background:#ff9900;}
+.vacant-seat{background:#999999;}
+.total-seat{background:#333; color:white;}
+
+
+@media (max-width:900px) {
+
+.container{
+flex-direction:column;
+}
+
+table{
+width:100%;
+}
+
+.sidebar{
+width:100%;
+}
+
+.subheader{
+flex-direction:column;
+gap:10px;
+}
+
+.navlist{
+flex-wrap:wrap;
+justify-content:center;
+}
+}
+.latest-news{
+background-image: url(OIP-3439647013.jpg);
+background-size: cover;
+color:rgb(255, 0, 0);
+height: 520px;
+border-color: #ff4d4d;
+border-style: solid;
+border-width: 2px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+footer{
+background:#f3f5f7;
+}
+
+.footer-top{
+display:flex;
+justify-content:space-around;
+padding:40px;
+}
+
+.column h3{
+color:#1d4fa3;
+margin-bottom:15px;
+}
+
+.column ul{
+list-style:none;
+padding:0;
+}
+
+.column ul li{
+margin:6px 0;
+color:#555;
+cursor:pointer;
+}
+
+.column ul li:hover{
+color:#1d4fa3;
+}
+
+.apps img{
+width:140px;
+margin-top:10px;
+display:block;
+}
+
+.footer-bottom{
+background:#dfe5ec;
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:25px;
+}
+
+.logo h2{
+color:#1d4fa3;
+font-size:28px;
+}
+
+.info p{
+margin:4px 0;
+}
+
+.contact p{
+margin:4px 0;
+}
